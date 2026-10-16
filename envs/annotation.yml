@@ -1,0 +1,7 @@
+name: salmonella-annotation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - prokka=1.14.6
+  - ncbi-amrfinderplus=3.11.26   # version used in the original analysis

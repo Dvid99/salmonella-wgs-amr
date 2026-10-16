@@ -1,0 +1,16 @@
+name: salmonella-assembly
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - fastqc
+  - fastp
+  - spades
+  - quast=5.2.0          # version used in the original analysis
+  - bwa
+  - samtools
+  - seqtk
+  - pandas
+  - matplotlib
+  - wget

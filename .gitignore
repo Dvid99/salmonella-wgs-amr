@@ -1,0 +1,18 @@
+# Input data
+data/*
+!data/README.md
+
+# Pipeline outputs — only curated figures are versioned
+results/*
+!results/figures/
+results_test/
+
+# Large intermediate files
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+
+# Python / OS
+__pycache__/
+.DS_Store
